@@ -1,0 +1,379 @@
+[2017-12-01 22:02:48,200] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 1.0-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 1.0-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2017-12-01 22:02:48,306] INFO starting (kafka.server.KafkaServer)
+[2017-12-01 22:02:48,314] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2017-12-01 22:02:48,335] INFO Starting ZkClient event thread. (org.I0Itec.zkclient.ZkEventThread)
+[2017-12-01 22:02:48,353] INFO Client environment:zookeeper.version=3.4.10-39d3a4f269333c922ed3db283be479f9deacaa0f, built on 03/23/2017 10:13 GMT (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,353] INFO Client environment:host.name=560f848d9ff3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,354] INFO Client environment:java.version=1.8.0_151 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,355] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,355] INFO Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,356] INFO Client environment:java.class.path=:/home/kafka/kafka_2.11-1.0.0/bin/../libs/aopalliance-repackaged-2.5.0-b32.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/argparse4j-0.7.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/commons-lang3-3.5.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/connect-api-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/connect-file-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/connect-json-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/connect-runtime-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/connect-transforms-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/guava-20.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/hk2-api-2.5.0-b32.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/hk2-locator-2.5.0-b32.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/hk2-utils-2.5.0-b32.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-annotations-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-core-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-databind-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-base-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-jaxrs-json-provider-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jackson-module-jaxb-annotations-2.9.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javassist-3.20.0-GA.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javassist-3.21.0-GA.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javax.annotation-api-1.2.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javax.inject-1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javax.inject-2.5.0-b32.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javax.servlet-api-3.1.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/javax.ws.rs-api-2.0.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-client-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-common-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-container-servlet-core-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-guava-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-media-jaxb-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jersey-server-2.25.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-continuation-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-http-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-io-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-security-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-server-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-servlet-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-servlets-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jetty-util-9.2.22.v20170606.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/jopt-simple-5.0.4.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka-clients-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka-log4j-appender-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka-streams-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka-streams-examples-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka-tools-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-sources.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0-test-sources.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/kafka_2.11-1.0.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/log4j-1.2.17.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/lz4-java-1.4.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/maven-artifact-3.5.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/metrics-core-2.2.0.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/plexus-utils-3.0.24.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/reflections-0.9.11.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/rocksdbjni-5.7.3.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/scala-library-2.11.11.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/slf4j-api-1.7.25.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/slf4j-log4j12-1.7.25.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/snappy-java-1.1.4.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/validation-api-1.1.0.Final.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/zkclient-0.10.jar:/home/kafka/kafka_2.11-1.0.0/bin/../libs/zookeeper-3.4.10.jar (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,358] INFO Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,361] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,362] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,363] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,364] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,364] INFO Client environment:os.version=4.9.27-moby (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,365] INFO Client environment:user.name=root (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,365] INFO Client environment:user.home=/root (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,366] INFO Client environment:user.dir=/home/kafka/kafka_2.11-1.0.0/bin (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,367] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:02:48,390] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:02:48,395] INFO Waiting for keeper state SyncConnected (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:02:48,419] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:02:48,450] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0010, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:02:48,461] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:02:48,763] INFO Cluster ID = fgW1Tq-0TaOtpPPOK0b74Q (kafka.server.KafkaServer)
+[2017-12-01 22:02:48,852] INFO [ThrottledRequestReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 22:02:48,860] INFO [ThrottledRequestReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 22:02:48,861] INFO [ThrottledRequestReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2017-12-01 22:02:48,962] INFO Loading logs. (kafka.log.LogManager)
+[2017-12-01 22:02:49,068] INFO Loading producer state from offset 0 for partition mytopic-0 with message format version 2 (kafka.log.Log)
+[2017-12-01 22:02:49,092] INFO Completed load of log mytopic-0 with 1 log segments, log start offset 0 and log end offset 0 in 78 ms (kafka.log.Log)
+[2017-12-01 22:02:49,128] INFO Logs loading complete in 165 ms. (kafka.log.LogManager)
+[2017-12-01 22:02:49,214] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2017-12-01 22:02:49,220] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2017-12-01 22:02:49,616] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2017-12-01 22:02:49,625] INFO [SocketServer brokerId=0] Started 1 acceptor threads (kafka.network.SocketServer)
+[2017-12-01 22:02:49,660] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,665] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,670] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,700] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2017-12-01 22:02:49,773] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,782] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,783] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2017-12-01 22:02:49,798] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:02:49,813] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2017-12-01 22:02:49,820] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2017-12-01 22:02:49,836] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 8 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-12-01 22:02:49,861] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:02:49,912] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:1000,blockEndProducerId:1999) by writing to Zk with path version 2 (kafka.coordinator.transaction.ProducerIdManager)
+[2017-12-01 22:02:49,966] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2017-12-01 22:02:49,971] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2017-12-01 22:02:49,980] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2017-12-01 22:02:50,099] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:02:50,134] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:02:50,137] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:02:50,152] INFO Kafka version : 1.0.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2017-12-01 22:02:50,152] INFO Kafka commitId : aaa7af6d4a11b29d (org.apache.kafka.common.utils.AppInfoParser)
+[2017-12-01 22:02:50,155] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2017-12-01 22:02:50,338] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions mytopic-0 (kafka.server.ReplicaFetcherManager)
+[2017-12-01 22:02:50,358] INFO Replica loaded for partition mytopic-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2017-12-01 22:02:50,366] INFO [Partition mytopic-0 broker=0] mytopic-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2017-12-01 22:02:50,445] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions mytopic-0 (kafka.server.ReplicaFetcherManager)
+[2017-12-01 22:02:50,446] INFO [Partition mytopic-0 broker=0] mytopic-0 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2017-12-01 22:03:28,966] WARN Client session timed out, have not heard from server in 22583ms for sessionid 0x1600fb367ed0010 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:28,974] INFO Client session timed out, have not heard from server in 22583ms for sessionid 0x1600fb367ed0010, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,079] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:03:29,112] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,115] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,120] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0010 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,120] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:03:29,120] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0010 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,120] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:03:29,127] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,132] INFO EventThread shut down for session: 0x1600fb367ed0010 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,133] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,145] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0011, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:03:29,146] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:03:29,148] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:03:29,150] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:03:29,182] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:03:29,182] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:03:29,183] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:03:29,185] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:03:29,199] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:03:29,216] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:12:49,815] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-12-01 22:21:01,206] WARN Client session timed out, have not heard from server in 14164ms for sessionid 0x1600fb367ed0011 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,228] INFO Client session timed out, have not heard from server in 14164ms for sessionid 0x1600fb367ed0011, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,331] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:21:01,505] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,507] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,510] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:21:01,510] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:21:01,511] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0011 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,511] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0011 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,513] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,515] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,518] INFO EventThread shut down for session: 0x1600fb367ed0011 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,532] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0012, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:21:01,533] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:21:01,535] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:21:01,536] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:21:01,554] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:21:01,554] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:21:01,554] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:21:01,555] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:21:01,555] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:21:01,568] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:22:49,815] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-12-01 22:23:12,772] WARN Client session timed out, have not heard from server in 12958ms for sessionid 0x1600fb367ed0012 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:12,773] INFO Client session timed out, have not heard from server in 12958ms for sessionid 0x1600fb367ed0012, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:12,873] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:13,628] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,629] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,631] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0012 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,631] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:13,631] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:23:13,632] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0012 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,633] INFO EventThread shut down for session: 0x1600fb367ed0012 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,641] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,643] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,656] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0013, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:13,657] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:13,658] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:13,660] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:13,692] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:13,693] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:13,694] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:23:13,694] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:13,694] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:13,708] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:55,084] WARN Client session timed out, have not heard from server in 13265ms for sessionid 0x1600fb367ed0013 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,088] INFO Client session timed out, have not heard from server in 13265ms for sessionid 0x1600fb367ed0013, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,192] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:55,633] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,633] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,636] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0013 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,636] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0013 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,636] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:55,637] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:23:55,639] INFO EventThread shut down for session: 0x1600fb367ed0013 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,646] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,648] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,664] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0014, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:23:55,665] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:23:55,666] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:55,667] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:55,697] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:55,697] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:23:55,699] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:23:55,700] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:55,700] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:23:55,712] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:24:49,635] WARN Client session timed out, have not heard from server in 15807ms for sessionid 0x1600fb367ed0014 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:49,637] INFO Client session timed out, have not heard from server in 15807ms for sessionid 0x1600fb367ed0014, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:49,739] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:24:50,589] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,590] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,591] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0014 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,592] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:24:50,592] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0014 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,592] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:24:50,594] INFO EventThread shut down for session: 0x1600fb367ed0014 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,597] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,598] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,613] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1600fb367ed0015, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:24:50,615] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:24:50,617] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:24:50,618] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:24:50,662] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:24:50,663] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:24:50,663] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:24:50,664] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:24:50,665] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:24:50,680] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:25:59,628] WARN Client session timed out, have not heard from server in 12778ms for sessionid 0x1600fb367ed0015 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:25:59,632] INFO Client session timed out, have not heard from server in 12778ms for sessionid 0x1600fb367ed0015, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:25:59,733] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:26:00,116] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,118] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,123] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:26:00,124] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:26:00,124] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0015 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,125] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0015 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,127] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,128] INFO EventThread shut down for session: 0x1600fb367ed0015 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,131] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,146] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1600fb367ed0016, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:26:00,148] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:26:00,151] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:26:00,153] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:26:00,179] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:26:00,180] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:26:00,182] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:26:00,183] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:26:00,184] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:26:00,195] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:27:05,001] WARN Client session timed out, have not heard from server in 12634ms for sessionid 0x1600fb367ed0016 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,024] INFO Client session timed out, have not heard from server in 12634ms for sessionid 0x1600fb367ed0016, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,125] INFO zookeeper state changed (Disconnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:27:05,455] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,455] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,457] WARN Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0016 has expired (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,457] INFO Unable to reconnect to ZooKeeper service, session 0x1600fb367ed0016 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,457] INFO zookeeper state changed (Expired) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:27:05,458] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=org.I0Itec.zkclient.ZkClient@7ec7ffd3 (org.apache.zookeeper.ZooKeeper)
+[2017-12-01 22:27:05,461] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,466] INFO EventThread shut down for session: 0x1600fb367ed0016 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,467] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,482] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1600fb367ed0017, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2017-12-01 22:27:05,482] INFO zookeeper state changed (SyncConnected) (org.I0Itec.zkclient.ZkClient)
+[2017-12-01 22:27:05,483] INFO re-registering broker info in ZK for broker 0 (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:27:05,484] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:27:05,503] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:27:05,504] INFO Registered broker 0 at path /brokers/ids/0 with addresses: EndPoint(560f848d9ff3,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2017-12-01 22:27:05,505] INFO done re-registering broker (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:27:05,505] INFO Subscribing to /brokers/topics path to watch for new topics (kafka.server.KafkaHealthcheck$SessionExpireListener)
+[2017-12-01 22:27:05,507] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:27:05,521] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2017-12-01 22:32:49,815] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-12-01 22:42:49,815] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2017-12-01 22:52:49,816] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

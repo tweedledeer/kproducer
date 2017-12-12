@@ -1,0 +1,2 @@
+FROM gkarabut/mydocker:ubuntu_lsof
+ENTRYPOINT ["tail", "-f", "/dev/null"]

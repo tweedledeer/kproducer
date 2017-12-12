@@ -1,0 +1,14 @@
+version: "3"
+services:
+  kserver:
+    # replace username/repo:tag with your name and image details
+    image: gkarabut/mydocker:kserver
+    ports:
+      - "8092:8092"
+    links:
+     - kserver
+  kproducer:
+    image: gkarabut/mydocker:kproducer
+    ports:
+
+

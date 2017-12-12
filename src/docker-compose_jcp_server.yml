@@ -1,0 +1,14 @@
+version: "3"
+services:
+  server:
+    # replace username/repo:tag with your name and image details
+    image: gkarabut/mydocker:1ubuntu_zk_kafka_running_topic
+  producer:
+    image: gkarabut/mydocker:1ubuntu-lsof
+
+
+networks:
+  default:
+    external:
+      name: mynet
+

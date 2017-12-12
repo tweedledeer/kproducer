@@ -1,0 +1,16 @@
+version: "3"
+services:
+  web:
+    # replace username/repo:tag with your name and image details
+    image: gkarabut/mydocker:1ubuntu_producer_running
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    ports:
+      - "8092:8092"
+      - "2181:2181"
+    networks:
+      - webnet
+networks:
+  mynet:

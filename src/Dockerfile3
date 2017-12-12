@@ -1,0 +1,3 @@
+FROM 1ubuntu_consumer_copied
+#COPY kafkaconsumer-1.0-SNAPSHOT-all.jar /home/
+ENTRYPOINT java -jar /home/kafkaconsumer-1.0-SNAPSHOT-all.jar

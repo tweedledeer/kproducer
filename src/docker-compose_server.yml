@@ -1,0 +1,21 @@
+version: "3"
+services:
+  kserver:
+    # replace username/repo:tag with your name and image details
+    image: gkarabut/mydocker:1ubuntu_zk_kafka_running_topic
+    ports:
+      - "9093:9092"
+      - "2182:2181"
+
+  kproducer:
+    image: kproducer_11dec
+    links:
+     - kserver
+    ports:
+     - "8081:8080"
+  kconsumer:
+    image: kconsumer_11dec
+    links:
+     - kserver
+    ports:
+     - "8082:8080"

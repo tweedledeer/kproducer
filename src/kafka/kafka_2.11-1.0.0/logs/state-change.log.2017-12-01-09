@@ -1,0 +1,1 @@
+[2017-12-01 09:51:30,537] TRACE [Controller id=0 epoch=3] Received response {error_code=0} for a request sent to broker 560f848d9ff3:9092 (id: 0 rack: null) (state.change.logger)

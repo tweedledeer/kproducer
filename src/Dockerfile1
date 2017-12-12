@@ -1,0 +1,4 @@
+FROM ubuntu_with_zk_kafka
+COPY kafka/ /home/
+RUN yes | apt-get -q update && yes | apt-get install -q default-jre && yes | apt-get -q install zookeeper
+#/usr/share/zookeeper/bin

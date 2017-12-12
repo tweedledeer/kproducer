@@ -1,0 +1,4 @@
+FROM 1ubuntu_kafka_copied
+RUN /usr/share/zookeeper/bin/zkServer.sh start && /home/kafka_2.11-1.0.0/bin/kafka-server-start.sh /home/kafka_2.11-1.0.0/config/server.properties
+RUN /home/kafka/kafka_2.11-1.0.0/bin/./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 2 --partitions 2 --topic my-topic && bash
+

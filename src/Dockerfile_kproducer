@@ -1,0 +1,5 @@
+FROM java:8
+RUN touch output.log
+WORKDIR /Users/gkarabut/src/kafkaproducer
+ADD . /Users/gkarabut/src/kafkaproducer
+ENTRYPOINT java -jar build/libs/kafkaproducer-1.0-SNAPSHOT-all.jar
